@@ -1,0 +1,294 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: black;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    background-color: greenyellow;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar .logo{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top:-20px ;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+    padding: 5px;
+}
+.navbar ul li:hover a{
+    color: white;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: white; 
+    margin-top: 100px;
+}
+.home-info h1{
+    font-size: 55px;
+    font-weight: bolder;
+}
+.home-info h2{
+    font-size: 32px;
+    margin-top: 10px;
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.home-info p{
+    font-size: 16px;
+    margin: 10px 0 -227px;
+}
+.home-info .btn-sci{
+    display: flex;
+    align-items: center;
+}
+.myimg{
+    display: flex;
+    justify-content: end;
+    margin-left: 800px;
+    border-radius: 300px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: -450px;
+    background: greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 40px;
+    box-shadow: 0 0 10px greenyellow;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    transition: .5s;
+}
+.btn:hover{
+    background: transparent;
+    color: greenyellow;
+    box-shadow: none;
+}
+
+.home-info .btn-sci .sci{
+    margin-left: 20px;
+    margin-top: -450px;
+}
+
+.home-info .btn-sci .sci a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+    font-size: 20px;
+    color: greenyellow;
+    margin: 0 8px;
+    transition: .5s;
+}
+.home-info .btn-sci .sci a:hover{
+    background: greenyellow;
+    color: black;
+    box-shadow: 0 0 10px greenyellow;
+}
+.about h2{
+    color: greenyellow;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.about h2:hover{
+    text-decoration: underline;
+    color: greenyellow;
+}
+
+.about-me{
+    color: white;
+    justify-content: center;
+    margin: 10px 200px;
+    font-size: 16px;
+}
+
+.projects h1{
+    color: greenyellow;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+.projects h1:hover{
+    text-decoration: underline;
+    color: greenyellow;
+}
+
+.project1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10px 0px;
+   
+}
+.card{
+    margin: 20px;
+    margin-left: 75px;
+    width: 150px;
+    transition: 0.5s;
+}
+.card .card-body .card-title{
+    color: black;
+    font-size: 25px;
+}
+
+.card-text{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+.carousel-indicators img{
+    width: 70px;
+    display: block;
+}
+.carousel-indicators button{
+    width: max-content!important;
+}
+.carousel-indicators{
+    position: unset;
+}
+
+.certificate{
+    color: greenyellow;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+.certificate:hover{
+    text-decoration: underline;
+    color: greenyellow;
+
+}
+
+
+.contact{
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 550px;
+    background-color: greenyellow;
+    align-items: center;
+    margin-right: 400px;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 30px;
+    height: 550px;
+    width: 400px;
+    padding: 10px 78px;
+}
+.contactme{
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+.contactme:hover{
+    text-decoration: underline;
+    color: greenyellow;
+   
+}
+.carouselslide img{
+    width: 200px;
+    height: 300px;
+}
+
+.email, .password{
+    text-align: left;
+    font-size: 20px;
+    font-style: bolder;
+    font-weight: 500;
+}
+
+.emailbox, .passbox{
+    background: black;
+    color: white;
+    font-size: 15px;
+    margin-top: 4px;
+    width: 300px;
+    height: 50px;
+    padding-left: 7px;
+    border-radius: 15px;
+}
+
+.submitbut{
+    color: greenyellow;
+    align-items: center;
+    background: black;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 17px;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.submitbut:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background: greenyellow;
+    color: black;
+}
+
+.foot{
+    background: greenyellow;
+    color: black;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
