@@ -1,193 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jason Israel - My Portfolio</title>
-  <link rel="icon" href="./assets/cv.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason Israel - My Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <nav class="navbar">
-    <a href="" class="logo">Portfolio</a>
-    <ul>
-      <li class="active"><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-      <li><a href="#contactme">Contact Me</a></li>
-    </ul>
-  </nav>
-<!--Home-->
-  <section class="home" id="home">
-    <div class="home-info">
-      <h1>Jason Israel</h1>
-      <h2>I'm a FrontEnd Developer</h2>
-      <p>"Driven by curiosity, fueled by passion, and committed to making a difference <br> through innovation and knowledge sharing."</p>
-      <img class="myimg" src="./assets/myimg.jpg" alt="" height="500" width="400">
-      <div class="btn-sci">
-        <a href="./assets/jason CV 1.pdf.pdf" class="btn">Download CV</a>
-        <div class="sci">
-          <a href="https://github.com/jason-israel-7"><i class='bx bxl-github'></i></a>
-          <a href="https://www.linkedin.com/in/jason-israel-j/"><i class='bx bxl-linkedin'></i></a>
-        </div>
-      </div>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#certificate">Certifications</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+             
+        </nav>
+
+    </header>
+  <!-- home -->
+   <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Jason Israel</h1>
+        <h3>And I'm a <span>Frontend Developer</span></h3>
+        <p>"Driven by Curiosity, fueled by passion and committed to making a <br> differnce through innovation and knowledge sharing". </p>
+     <div class="social-media">
+        <a href="https://github.com/jason-israel-7" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/jason-israel-j/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+
+     </div>
+     <a href="./assets/jason CV 1.pdf.pdf" target="_blank" class="btn">Download CV</a>
     </div>
-  </section>
-<!--About-->
-  <section class="about" id="about">
-    <h2>About Me!</h2>
-    <div class="about-me">
-      <p>"I'm Jason Israel J., an Engineer who's passionate about technology and teaching. With a strong foundation in
-        Electronics and Communication Engineering, I enjoy breaking down complex concepts and sharing knowledge as a
-        technical trainer. I've always been driven by curiosity and the thrill of solving problems. Winning a project
-        competition was a proud milestone in my journey. I'm constantly learning and love exploring new technologies to
-        create meaningful solutions. My goal is to make a positive impact through innovation and collaboration. Teaching
-        and inspiring others is what keeps me motivated every day." </p>
+    <div class="home-img">
+        <img src="./assets/myimg.jpg" alt="">
     </div>
-  </section><br><br><br>
-<!--Projects-->
-  <section class="projects" id="projects">
-    <h1>Projects</h1>
-    <div class="project1">
-      <div class="card" style="width: 25rem;">
-        <img src="./assets/Screenshot_20241223_143714.png" width="400" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">eCommerce Website</h5>
-          <p class="card-text">SneakerStation is the greatest website for buying sneakers online.</p>
+   </section>
 
-        </div>
-      </div>
+   <!-- about section -->
 
-      <div class="card" style="width: 25rem;">
-        <img src="./assets/Screenshot_20241223_154433.png" width="400" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Netflix Login Page Clone</h5>
-          <p class="card-text">Made a Netflix clone page with CSS and HTML</p>
+   <section class="about" id="about">
+       <div class="about-img">
+        <img src="./assets/1735140378319.jpg" alt="">
 
-        </div>
-      </div>
-
-      <div class="card" style="width: 25rem;">
-        <img src="./assets/Screenshot_20241231_164240.png" width="400" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Landing Page Website</h5>
-          <p class="card-text">Dream Escapes helps to enjoy your vacation on affordable prices</p>
-
-        </div>
-      </div>
-
-      <div class="card" style="width: 25rem;">
-        <img src="./assets/Screenshot_20241231_191810.png" width="400" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">JavaScript Quiz Website</h5>
-          <p class="card-text">A Quiz webpage using HTML CSS and JavaScript with timer</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 25rem;">
-        <img src="./assets/Screenshot_20241231_192527.png" width="400" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Calculator Website</h5>
-          <p class="card-text">A Basic Calculator App in the form of Webpage Useful for basic Calculations</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 25rem;">
-        <img src="./assets/Screenshot_20241031_125931.png" width="400" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Attendance Dashboard</h5>
-          <p class="card-text">An Attendance Dashboard with the Membership Details for Gym</p>
-        </div>
-      </div>
-    </div>
-  </section><br>
-<!--Certifications-->
-  <div id="carouselExampleCaptions" class="carousel carousel-dark slide">
-    <h1 class="certificate" id="certifications">Certifications</h1>
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./assets/UC-0319c8e8-08e2-4f16-a3f6-e08c971c9097.jpg" height="900px" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Udemy Certification</h5>
-          <p>JavaScript and React JS</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./assets/UC-3f106651-13ef-4e8c-96b0-22643e91ac0f.jpg" height="900px" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Udemy Certification </h5>
-          <p>Web Development Bootcamp</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./assets/GuviCertification - C215gxk7HY5616Zj58.png" height="900px" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Guvi Certification</h5>
-          <p>JavaScript</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-<!--Contact-->
-  <br><br><br>
-  <section id="contactme">
-    <h1 class="contactme">Contact Me</h1>
-    <form class="contact" id="Conatct me">
-      <div class="form-group">
-        <label class="email" for="exampleInputEmail1">Email address</label><br>
-        <input type="email" class="emailbox" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-          placeholder="Enter email"><br>
-        <small class="smallpara" id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-          else.</small>
-      </div><br><br>
-      <div class="form-group">
-        <label class="password" for="exampleInputPassword1">Your Message</label><br>
-        <input class="passbox" type="text" class="form-control" id="exampleInputPassword1"
-          placeholder="Enter your message">
-        <small class="smallpara" id="emailHelp" class="form-text text-muted">We'll never share your message with anyone
-          else.</small>
-      </div><br>
-
-      <button type="submit" class="submitbut" class="btn btn-primary">Submit</button>
-    </form>
-  </section>
-</body>
-<!--Footer-->
-<div class="foot">
-
-  <div class="foot-body"><br>
-    <h5 class="foot-title">"Code is my canvas, creativity is my tool."</h5>
-    <p class="foot-text">"Dreams are the blueprints of your future—build them with passion and perseverance."</p>
-  </div>
+       </div>
+   <div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2>
+    <h3>Frontend Developer</h3>
+    <p>I’m a recent graduate in Electronics and Communication Engineering with a strong passion for technology and problem-solving. I have experience as a web developer intern and a technical trainer, which helped me develop my skills in coding, communication, and teamwork. I’m proficient in Python, familiar with JavaScript, Django, and databases, and I enjoy exploring web technologies like HTML and CSS. I love learning new things and applying them to solve real-world challenges. With a positive attitude and a knack for adapting quickly, I aim to contribute meaningfully to any team I'm part of.</p>     
 </div>
+
+   </section>
+
+   <!-- Certificates -->
+
+  <section class="certificate" id="certificate">
+       <h2 class="heading">My <span>Certifications</span></h2>
+      <div class="certificate1">
+        <div class="card">
+          <img src="./assets/UC-3f106651-13ef-4e8c-96b0-22643e91ac0f.jpg" height="270px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Udemy Certification</h5>
+            <p class="card-text">Completed React and JavaScript Course Certification on Udemy</p>
+          </div>
+        </div>
+  
+  
+        <div class="card">
+          <img src="./assets/UC-0319c8e8-08e2-4f16-a3f6-e08c971c9097.jpg" height="270px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Udemy Certification</h5>
+            <p class="card-text">Completed Web development Bootcamp Certification on Udemy</p>
+          </div>
+        </div>
+  
+        <div class="card" >
+          <img src="./assets/GuviCertification - C215gxk7HY5616Zj58.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Guvi Certification</h5>
+            <p class="card-text">Completed Certification on JavaScript in Guvi E-learning Platform</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Projects -->
+
+ <section class="project" id="project">
+    <h2 class="heading">My latest <span>Projects</span></h2>
+    <div class="project-container">
+        <div class="project-box">
+            <img src="./assets/pizza web.png" alt="">
+            <div class="project-layer">
+                <h4>Pizzeria</h4>
+                <p>Trying to make a pizza Don't worry get homemade pizza order now! 
+                </p>
+                <a href="https://jason-israel-7.github.io/e-commerce---Pizzeria/" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="./assets/Screenshot_20241231_164240.png" alt="">
+            <div class="project-layer">
+                <h4>Dream Escapes</h4>
+                <p>Trying to plan a vacation use Dream Escapes book your vacation spot and everything easily. 
+                </p>
+                <a href="https://jason-israel-7.github.io/travel-website/" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="./assets/Screenshot_20241231_191810.png" alt="">
+            <div class="project-layer">
+                <h4>JavaScript Quiz</h4>
+                <p>Check your JavaScript knowledge through the website and try to complete the question within the time.
+                </p>
+                <a href="https://jason-israel-7.github.io/JS-Quiz-project-using-HTML-CSS-and-JS/" target="_blank "><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="./assets/Screenshot_20241223_143714.png" alt="">
+            <div class="project-layer">
+                <h4>SneakerStation</h4>
+                <p>SneakerStation a online ecommerce page to get your sneakers at best price.
+                </p>
+                <a href="https://jason-israel-7.github.io/sneaker-station/" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+ </section>
+</body>
+
+<footer>
+    <div class="foot" id="contact">
+
+        <div class="foot-body"><br>
+          <h5 class="foot-title">Contact Me!</h5>
+          <h3 class="email1">Email</h3>
+          <p class="para1">jasonisrael92922@gmail.com</p>
+          <h3 class="email1">Mobile No.</h3>
+          <p class="para1">	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;+91-73392-92260</p>
+        </div>
+
+        <ul class="footlist">
+            <li>Contact Me</li>
+            <li><a href="http://Wa.me/+917339292260" target="_blank"><i class='bx bxl-whatsapp'  ></i></a></li>
+            <li><a href="https://www.linkedin.com/in/jason-israel-j/" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+          </ul>
+      </div>
+
+</footer>
+
 
 </html>
