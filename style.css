@@ -169,7 +169,6 @@ span{
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    background-color: var(--second--bg--color);
 
 }
 
@@ -241,9 +240,6 @@ span{
     margin:10px;
 }
 
-.project{
-    background:#323946;
-}
 
 .project-box img{
     height: 400px;
@@ -352,8 +348,7 @@ span{
 
 footer{
     text-align: center;
-    background: var(--main--color);
-    color: black;
+    color: greenyellow;
     padding: 10px;
 }
 
