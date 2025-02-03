@@ -169,7 +169,6 @@ span{
     justify-content: center;
     align-items: center;
     gap: 5rem;
-
 }
 
 .about-img img{
@@ -239,6 +238,7 @@ span{
 #but{
     margin:10px;
 }
+
 
 
 .project-box img{
@@ -348,7 +348,7 @@ span{
 
 footer{
     text-align: center;
-    color: greenyellow;
+    color: var(--main--color);
     padding: 10px;
 }
 
@@ -459,7 +459,7 @@ footer{
     }
 
     .about-img img{
-        width: 50vw;
+        width: 70vw;
     }
 
 }
@@ -473,21 +473,31 @@ footer{
 }
 
 @media (max-width: 365px){
+
+    html{
+        font-size: 45%;
+    }
+
+    .certificate-container{
+        padding-left: 64px;
+    }
+
+    .header{
+        padding: 2rem 2%;
+    }
+    
+   
+
+    .about{
+        padding: 20px;
+    }
+
     .home-img img{
-        width: 50vw;
+        width: 70vw;
     }
 
     .about-img img{
         width: 70vw;
     }
-
-    .about{
-        width: 100%;
-    }
 }
 
-@media (max-width:348px){
-    .about{
-        width: 100%;
-    }
-}
